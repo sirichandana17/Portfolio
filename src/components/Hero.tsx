@@ -157,7 +157,7 @@ export default function Hero() {
                   x="78" y="154" width="6" height="9" rx="1"
                   fill="var(--accent)"
                   animate={{ opacity: [1, 0, 1] }}
-                  transition={{ repeat: Infinity, duration: 1, ease: 'steps(1)' }}
+                  transition={{ repeat: Infinity, duration: 1 }}
                 />
 
                 {/* Camera dot */}
