@@ -63,7 +63,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-8">
-              <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a href="./resume.pdf" download="Siri_Chandana_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <Download size={16} /> Download Resume
               </a>
               <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="btn-outline">
